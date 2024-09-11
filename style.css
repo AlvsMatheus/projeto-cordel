@@ -17,63 +17,59 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     color:white ;
     margin: auto;
-
     color: white;
     
-    
-    
 }
-header > h1{
+header > h1 {
     margin: auto;
     padding-top: 10vh;
     font-family: "Passion One";
-    font-weight: bold;
-    font-size: 12vh;
+    font-variant: small-caps;
+    font-size: 10vw;
+
 
 }
 header > h1:hover{
     text-decoration: underline;
 }
+
 header > p{
-  padding-bottom: 6vh;  
+
+  padding-bottom: 50px; 
+
 }
-a{
+
+a {
    font-family: Verdana, Geneva, Tahoma, sans-serif;  
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
- a:hover{
+ a:hover {
     text-decoration:underline ;
 }
-article.normal{
+article {
+    text-shadow: 1px, 1px, 0px, black ;
+}
+article.normal {
     text-align: center;
     font-family: 'sriracha', sans-serif;
-    font-size: 6vh ;
-    text-decoration:none ;
+    font-size: 3.5vw ;
     padding-left: 4vh;
     padding-top: 4vh;
     padding-bottom: 7vh;
-    box-shadow: inset 4px 5px 13px -1px rgba(0, 0, 0, 0.473);
+    box-shadow: inset 2px 2px 6px -1px rgba(0, 0, 0, 0.473);
 }
 article.normal > p{
     margin: 2.5em;
 }
-article.normal:hover{
-    text-decoration:underline;
-}
+
 article.diferente{
     color: white;
     font-family:'sriracha', sans-serif ;
-    font-size: 6vh;
-    text-decoration: none;
+    font-size: 3.5vw;
     text-align: center;
-    
-}
-article.diferente:hover{
-    text-decoration: underline;
     box-shadow: inset 4px 5px 13px -1px rgba(0, 0, 0, 0.473);
-    
 }
 article#joaninha{
     background: white url(imagens/background001.jpg) center center no-repeat fixed;
@@ -90,12 +86,14 @@ article#joaninha > p{
 article#folha{
     background: white url(imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;}
-    article#folha > p{
+
+article#folha > p{
         background-color: rgba(0, 0, 0, 0.459);
         display: inline-block;  
         margin: 1em 0.4em;
         padding: 5px;
     }
+
 footer{
     background-color: black;
     color: white;
@@ -103,6 +101,7 @@ footer{
     text-align: center;
     padding: 10px;
 }
+
 footer > p{
     margin: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
