@@ -52,23 +52,19 @@ article {
     text-shadow: 1px, 1px, 0px, black ;
 }
 article.normal {
-    text-align: center;
     font-family: 'sriracha', sans-serif;
     font-size: 3.5vw ;
-    padding-left: 4vh;
+    padding-left: 15px;
     padding-top: 4vh;
     padding-bottom: 7vh;
     box-shadow: inset 2px 2px 6px -1px rgba(0, 0, 0, 0.473);
-}
-article.normal > p{
-    margin: 2.5em;
 }
 
 article.diferente{
     color: white;
     font-family:'sriracha', sans-serif ;
     font-size: 3.5vw;
-    text-align: center;
+   
     box-shadow: inset 4px 5px 13px -1px rgba(0, 0, 0, 0.473);
 }
 article#joaninha{
